@@ -1,4 +1,3 @@
-#part 1
 fruit_store = [
 {
     "name":"Apples",
@@ -14,14 +13,21 @@ fruit_store = [
     "name":"Oranges",
     "price": 4.99,
     "descriptiion":"Fresh Oranges Sourced Locally Organically"
-}
+},
 ]
-
 for index, item in enumerate(fruit_store):
     print(index, ":", item["name"])
-purchase = int(input("Chose a product in the fruit store by typing an integer between 0 and 2"))
-print(fruit_store[purchase]["name"])
 
-#part 2
+shopping=input("Shopping? Yes or No")
 
-cart= []
+cart=[]
+
+while shopping=="Yes":
+    purchase = int(input("Chose a product in the fruit store by typing an integer between 0 and 3"))
+    print(fruit_store[purchase]["name"])
+    cart.append(fruit_store[purchase]["name"])
+    
+    
+
+
+

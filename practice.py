@@ -19,5 +19,5 @@ def spaces(y,t):
         if y[i]=="C" and t[i]=="C":
             cc+=1
             postion.append(i)
-    
+    print(postion)
 spaces("CCC..",".C.C.")

@@ -12,12 +12,10 @@ def lang(x):
         print("french")
 lang("I like to eat apple")
 
-def spaces(y,t):
-    cc = 0
-    postion=[]
-    for i in range (len(y)):
-        if y[i]=="C" and t[i]=="C":
-            cc+=1
-            postion.append(i)
-    print(postion)
-spaces("CCC..",".C.C.")
+def spaces(n,y,t):
+    both=0
+    for i in range(n):
+        if (y[i]=="C" and t[i]=="C"):
+            both+=1
+    return both
+print(spaces(5, "CCC..", "C.C.C"))

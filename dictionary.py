@@ -33,5 +33,5 @@ def shoppin():
     total=sum(recipt)*1.04
     print(total)
     print("*Includes Tax")
-    print("*Round to the Nearest Cent for Payment.")
+    print("*Round to the Nearest Cent During Payment")
 shoppin()

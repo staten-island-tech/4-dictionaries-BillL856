@@ -14,6 +14,11 @@ fruit_store = [
     "price": 4.99,
     "desc":"Fresh Oranges Sourced Locally Organically"
 },
+{
+    "name":"Watermelon",
+    "price": 7.99,
+    "desc":"Fresh Watermelon Sourced Locally Organically"
+},
 ]
 for index, item in enumerate(fruit_store):
     print(index, ":", item["name"], ",", item["price"], ",", item["desc"])
@@ -23,7 +28,7 @@ recipt=[]
 def shoppin():
     shopping=input("Shopping?")
     while shopping=="yes":
-        purchase = int(input("Chose a product in the fruit store by typing an integer between 0 and 2"))
+        purchase = int(input("Chose a product in the fruit store by typing its index number"))
         print(fruit_store[purchase]["name"])
         cart.append(fruit_store[purchase]["name"])
         recipt.append(fruit_store[purchase]["price"])

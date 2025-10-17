@@ -21,7 +21,7 @@ fruit_store = [
 },
 ]
 for index, item in enumerate(fruit_store):
-    print(index, ":", item["name"], ",", item["price"], ",", item["desc"])
+    print((index+1), ":", item["name"], ",", item["price"], ",", item["desc"])
 
 cart=[]
 recipt=[]
@@ -29,9 +29,9 @@ def shoppin():
     shopping=input("Shopping?")
     while shopping=="yes":
         purchase = int(input("Chose a product in the fruit store by typing its index number"))
-        print(fruit_store[purchase]["name"])
-        cart.append(fruit_store[purchase]["name"])
-        recipt.append(fruit_store[purchase]["price"])
+        print(fruit_store[purchase-1]["name"])
+        cart.append(fruit_store[purchase-1]["name"])
+        recipt.append(fruit_store[purchase-1]["price"])
         shopping=input("Still Shopping?")
     print(cart)
     print(recipt)

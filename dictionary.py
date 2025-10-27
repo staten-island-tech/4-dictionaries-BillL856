@@ -27,8 +27,8 @@ cart=[]
 recipt=[]
 def shoppin():
     shopping=input("Shopping?")
-    while shopping=="yes":
-        purchase = int(input("Chose a product in the fruit store by typing its index number"))
+    while shopping =="yes":
+        purchase=int(input("Chose a product in the fruit store by typing its index number"))
         print(fruit_store[purchase-1]["name"])
         cart.append(fruit_store[purchase-1]["name"])
         recipt.append(fruit_store[purchase-1]["price"])

@@ -19,6 +19,36 @@ fruit_store = [
     "price": 7.99,
     "desc":"Fresh Watermelon Sourced Locally Organically"
 },
+{
+    "name": "Strawberries",
+    "price": 5.49,
+    "desc": "Sweet and Juicy Strawberries Grown Without Pesticides"
+},
+{
+    "name": "Avocado",
+    "price": 2.25,
+    "desc": "Creamy Hass Avocado Perfect for Toast or Salads"
+},
+{
+    "name": "Blueberries",
+    "price": 4.99,
+    "desc": "Handpicked Blueberries Packed with Antioxidants"
+},
+{
+    "name": "Mango",
+    "price": 3.75,
+    "desc": "Ripe Tropical Mangoes with a Sweet, Juicy Flavor"
+},
+{
+    "name": "Pineapple",
+    "price": 6.50,
+    "desc": "Fresh Golden Pineapple, Perfect for Juices or Desserts"
+},
+{
+    "name": "Cantaloupe",
+    "price": 5.25,
+    "desc": "Fragrant Cantaloupe Melon with a Soft, Sweet Texture"
+}
 ]
 for index, item in enumerate(fruit_store):
     print((index+1), ":", item["name"], ",", item["price"], ",", item["desc"])

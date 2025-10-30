@@ -54,19 +54,17 @@ for index, item in enumerate(fruit_store):
     print((index+1), ":", item["name"], ",", item["price"], ",", item["desc"])
 
 cart=[]
-recipt=[]
 def shoppin():
     shopping=input("Shopping?")
+    cost=0
     while shopping =="yes":
         purchase=int(input("Chose a product in the fruit store by typing its index number"))
         print(fruit_store[purchase-1]["name"])
         cart.append(fruit_store[purchase-1]["name"])
-        recipt.append(fruit_store[purchase-1]["price"])
+        cost+=fruit_store[purchase-1]["price"]
         shopping=input("Still Shopping?")
     print(cart)
-    print(recipt)
-    total=sum(recipt)*1.04
-    print(total)
+    print(cost)
     print("*Includes Tax")
     print("*Round to the Nearest Cent During Payment")
 shoppin()

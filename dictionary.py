@@ -1,23 +1,23 @@
 fruit_store = [
 {
-    "name":"Apples",
-    "price": 4.59,
-    "desc":"Fresh Apples Sourced Locally Organically"
+    "name": "Apples",
+    "price": 3.99,
+    "desc": "Crisp and Sweet Apples Perfect for Snacking or Baking"
 },
 {
-    "name":"Pears",
-    "price": 4.69,
-    "desc":"Fresh Pears Sourced Locally Organically"
+    "name": "Pears",
+    "price": 4.29,
+    "desc": "Juicy and Smooth Pears with a Delicate Natural Sweetness"
 },
 {
-    "name":"Oranges",
-    "price": 4.99,
-    "desc":"Fresh Oranges Sourced Locally Organically"
+    "name": "Oranges",
+    "price": 4.79,
+    "desc": "Bright and Tangy Oranges Packed with Fresh Citrus Flavor"
 },
 {
-    "name":"Watermelon",
-    "price": 7.99,
-    "desc":"Fresh Watermelon Sourced Locally Organically"
+    "name": "Watermelon",
+    "price": 6.99,
+    "desc": "Sweet and Refreshing Watermelon Perfect for Hot Summer Days"
 },
 {
     "name": "Strawberries",

@@ -65,6 +65,5 @@ def shoppin():
         shopping=input("Still Shopping?")
     print(cart)
     print(cost)
-    print("*Includes Tax")
-    print("*Round to the Nearest Cent During Payment")
 shoppin()
+
